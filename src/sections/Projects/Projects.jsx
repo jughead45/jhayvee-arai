@@ -1,5 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import robotOlympics from "../../assets/viberr.png";
+import fruitly from '../../assets/fruitly.png'
+import outdoorAdventure from '../../assets/outdoor-adventure.png'
+import popBalloon from '../../assets/pop-balloon.png'
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -7,29 +9,23 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-        <ProjectCard
-          src={robotOlympics}
-          link="https://github.com/jughead45/robot-olympics"
-          h3="Robot Olympics"
-          p="Sample Java program"
+      <ProjectCard
+          src={fruitly}
+          link="https://github.com/jughead45/fruitly"
+          h3="Fruitly"
+          p="Simple web app about fruits"
         />
         <ProjectCard
-          src={robotOlympics}
-          link="https://github.com/jughead45/robot-olympics"
-          h3="Robot Olympics"
-          p="Sample Java program"
+          src={popBalloon}
+          link="https://github.com/jughead45/simpleJSgame"
+          h3="Pop it"
+          p="Simple Popping Balloon game"
         />
         <ProjectCard
-          src={robotOlympics}
-          link="https://github.com/jughead45/robot-olympics"
-          h3="Robot Olympics"
-          p="Sample Java program"
-        />
-        <ProjectCard
-          src={robotOlympics}
-          link="https://github.com/jughead45/robot-olympics"
-          h3="Robot Olympics"
-          p="Sample Java program"
+          src={outdoorAdventure}
+          link="https://github.com/jughead45/outdoor-adventure"
+          h3="Outdoor Adventure"
+          p="Sample UI Layout"
         />
       </div>
     </section>
