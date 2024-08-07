@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from '../../assets/Design uten navn.png';
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import githubLight from "../../assets/github-light.svg";
@@ -30,8 +30,8 @@ function Hero() {
         <h4>Hi, I'm</h4>
         <h1>Jhayvee</h1>
         <h3>
-          I have a passion for developing functional solutions <br /> with a
-          commitment to excellence.
+          Passionate about leveraging technology to create <br /> efficient solutions and
+          committed to continuous learning.
         </h3>
         <span>
           <a href="https://github.com/jughead45" target="_blank">
@@ -45,10 +45,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I'm a graduating Computer Systems Technician - Sofware Support student
-          and a Bachelor's Degree holder in Computer Engineering with a
-          intermediate experience in software application development, database
-          management, and development tools.
+          I'm currently a graduating Sofware Development student with 1 year
+          experience in software and web development, adept at enhancing user experiences and optimizing
+          operationaly efficiencies.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
