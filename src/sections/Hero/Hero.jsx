@@ -18,7 +18,7 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
-        <img className={styles.hero} src={heroImg} alt="Profile picture" />
+        {/* <img className={styles.hero} src={heroImg} alt="Profile picture" /> */}
         <img
           className={styles.colorMode}
           src={themeIcon}
