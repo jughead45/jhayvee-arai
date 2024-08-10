@@ -45,9 +45,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I'm currently a graduating Sofware Development student with 1 year
-          experience in software and web development, adept at enhancing user experiences and optimizing
-          operationaly efficiencies.
+          I'm currently a graduating Software Development student with
+          experience in software and web development, adept at enhancing 
+          user experiences and optimizing operationally efficiencies.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
